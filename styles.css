@@ -78,7 +78,7 @@ body, html {
 
 /* Main Screen */
 #main-screen {
-    background: url('main-background.jpg') no-repeat center center fixed;
+    background: url('images/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
