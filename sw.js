@@ -5,8 +5,10 @@ self.addEventListener('install', event => {
                 'index.html',
                 'styles.css',
                 'app.js',
-                'logo.png',
-                'main-background.jpg'
+                'images/logo.png',
+                'images/background.jpg',
+                'images/icons/icon-192x192.png',
+                'images/icons/icon-512x512.png'
             ]);
         })
     );
