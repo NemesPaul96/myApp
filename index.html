@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="screen">
+        <div class="splash-content">
+            <img src="logo.png" alt="App Logo" class="app-logo">
+            <h1 class="app-name">My App</h1>
+            <div class="loading-indicator">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Screen -->
+    <div id="main-screen" class="screen hidden">
+        <div class="app-header">
+            <img src="logo.png" alt="App Logo" class="app-logo">
+        </div>
+        <div class="button-container">
+            <button class="app-button">Button 1</button>
+            <button class="app-button">Button 2</button>
+            <button class="app-button">Button 3</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
